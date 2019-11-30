@@ -1,0 +1,70 @@
+
+header{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poiret One', cursive;
+  background-size: cover;
+  border-top-width: 1px;
+}
+.login-box{
+  width: 300px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  border:1px solid #013243;
+  border-radius: 50px 20px;
+
+  padding: 30px 30px 50px 30px ;
+  transform: translate(-50%,-50%);
+  color: #5333ed;
+
+}
+.login-box h1{
+  float: left;
+  color:#013243;
+  font-size: 40px;
+  border-bottom: 1px solid #013243;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #013243;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border-radius: 50px 20px;
+  border: 1px solid #013243;
+  color: #013243;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+.btn:hover{
+  background-image: linear-gradient(to right, #013243, #00b5cc);
+  opacity: 0.7;
+}

@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poiret One', cursive;
+  background-size: cover;
+  border-top-width: 10%;
+}
+
+
+.w3-container{
+  width: 30%;
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  border: 1px solid #013243;
+  border-radius: 30px 20px;
+  transform: translate(-50%,-50%);
+  color: #013243;
+}
+
+.w3-containerh1{
+  float: left;
+  font-size: 15px;
+  border-bottom: 6px solid #00b5cc;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+
+.w3-input{
+  width: 100%;
+  overflow: hidden;
+  font-size: 15px;
+  padding: 9px 0;
+  margin: 9px 0;
+  border-bottom: 1px solid #00b5cc;
+  border-bottom-style: 
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 1px solid #013243;
+  color: #013243;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+  border-radius: 30px 20px;
+}
+
+.btn:hover{
+  background-image: linear-gradient(to right, #013243, #00b5cc);
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
